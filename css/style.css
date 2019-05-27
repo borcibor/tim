@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Karla|Rubik');
+
+body {
+    font-family: "Karla", sans-serif;
+    margin: 0;
+    background: #f1f1f1;
+    height: auto;
+}
+
+h1 {
+    font-family: "Rubik", sans-serif;
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+main {
+    max-width: 900px;
+    margin: auto; 
+}
+
+#landing {
+    background: #fff;
+}
+
+#landing-text {
+    display: flex;
+    flex: 0 1 40vw;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+#landing-text h2 {
+    color: burlywood;
+}
+
+.btn {
+    padding: 0.5rem 2rem;
+    border: 2px #000 solid;
+    display: inline-block;
+    margin: 2rem 0 0;
+    border-radius: 7px;
+    transition: background 100ms ease;
+}
+
+.btn:hover {
+    background: yellow;
+    
+}
+
+footer {
+    text-align: center;
+    padding: 2rem 1rem;
+    margin: auto;
+    color: #333;
+}
+
+footer h3 {
+    font font-size: 3rem;
+    margin-bottom: 0;
+}
